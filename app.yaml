@@ -29,6 +29,8 @@ handlers:
 - url: /
   upload: index.html
   static_files: index.html
+- url: /assets
+  static_dir: assets  
 - url: /.*
   script: main.app
 
