@@ -1,4 +1,4 @@
-# Copyright 2012 Google Inc. All Rights Reserved.
+# Copyright 2013 Google Inc. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ from google.appengine.ext import deferred
 from google.appengine.ext import testbed
 
 
-EXPECTED_TEST_COUNT = 48
+EXPECTED_TEST_COUNT = 67
 
 
 def empty_environ():
@@ -144,4 +144,5 @@ def main():
 
 
 if __name__ == '__main__':
+    appengine_config.gcb_force_default_encoding('ascii')
     main()
