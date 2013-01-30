@@ -50,7 +50,7 @@ PREVIEW_HOOK_POINTS = [
     '<!-- preview.after_main_content_ends -->']
 
 
-class MustFail(Exception):
+class ShouldHaveFailedByNow(Exception):
     """Special exception raised when a prior method did not raise."""
     pass
 
@@ -164,26 +164,33 @@ def assert_equals(expected, actual):
                         (expected, actual))
 
 
+def to_unicode(text):
+    """Converts text to Unicode if is not Unicode already."""
+    if not isinstance(text, unicode):
+        return unicode(text, 'utf-8')
+    return text
+
+
 def assert_contains(needle, haystack):
-    if not needle in haystack:
+    if not to_unicode(needle) in to_unicode(haystack):
         raise Exception('Can\'t find \'%s\' in \'%s\'.' % (needle, haystack))
 
 
 def assert_contains_all_of(needles, haystack):
     for needle in needles:
-        if not needle in haystack:
+        if not to_unicode(needle) in to_unicode(haystack):
             raise Exception(
                 'Can\'t find \'%s\' in \'%s\'.' % (needle, haystack))
 
 
 def assert_does_not_contain(needle, haystack):
-    if needle in haystack:
+    if to_unicode(needle) in to_unicode(haystack):
         raise Exception('Found \'%s\' in \'%s\'.' % (needle, haystack))
 
 
 def assert_contains_none_of(needles, haystack):
     for needle in needles:
-        if needle in haystack:
+        if to_unicode(needle) in to_unicode(haystack):
             raise Exception('Found \'%s\' in \'%s\'.' % (needle, haystack))
 
 
@@ -199,8 +206,9 @@ def assert_all_fail(browser, callbacks):
     for callback in callbacks:
         try:
             callback(browser)
-            raise MustFail('Expected to fail: %s().' % callback.__name__)
-        except MustFail as e:
+            raise ShouldHaveFailedByNow(
+                'Expected to fail: %s().' % callback.__name__)
+        except ShouldHaveFailedByNow as e:
             raise e
         except Exception:
             pass
