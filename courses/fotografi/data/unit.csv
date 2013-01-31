@@ -1,13 +1,13 @@
 id,type,unit_id,title,release_date,now_available
-1,A,Pre,Pre-course assessment,,True
-2,U,1,Introduction,available July 10,True
-3,U,2,Interpreting results,available July 11,True
-4,U,3,Advanced techniques,available July 12,True
-5,A,Mid,Mid-course assessment,,True
-6,U,4,Find facts faster,available July 17,True
-7,U,5,Checking your facts,available July 18,True
-8,U,6,Putting it all together,available July 19,True
-9,A,Fin,Post-course assessment,,True
-10,O,http://www.youtube.com/watch?v=ZhhiXxiAVtM&feature=player_embedded,Power Searching with Search Experts Video,,True
-11,O,http://www.youtube.com/watch?v=dwlpViuIYgU&feature=player_embedded,Hang Out with Search Experts Video,,True
+1,A,Pre,Penilaian Awal,,True
+2,U,1,Pengantar,"Minggu 0, tersedia 20 April",True
+3,U,2,Segitiga Eksposur,"Minggu 1, tersedia 27 April",True
+4,U,3,"Garis, Bentuk, dan Pola","Minggu 2, tersedia 4 Mei",False
+5,A,Mid,Penilaian Pertengahan,,False
+6,U,4,Warna,"Minggu 3, tersedia 11 Mei",False
+7,U,5,Hubungan Spasial,"Minggu 4, tersedia 18 Mei",False
+8,U,6,Melampaui <i>Rule of Third</i>,"Minggu 5, tersedia 25 Mei",False
+9,A,Fin,Penilaian Akhir,,False
+10,O,http://www.youtube.com/watch?v=ZhhiXxiAVtM&feature=player_embedded,Power Searching with Search Experts Video,,False
+11,O,http://www.youtube.com/watch?v=dwlpViuIYgU&feature=player_embedded,Hang Out with Search Experts Video,,False
 
