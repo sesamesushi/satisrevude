@@ -763,7 +763,7 @@ def set_object_attributes(target_object, names, values):
                 setattr(target_object, names[i], int(values[i]))
             continue
         if is_boolean(values[i]):
-            setattr(target_object, names[i], bool(values[i]))
+            setattr(target_object, names[i], values[i] == 'True' if True else False)
             continue
         setattr(target_object, names[i], values[i])
 
