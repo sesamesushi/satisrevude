@@ -33,12 +33,11 @@ course:
 
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
   blurb: |
-    Google Search makes it amazingly easy to find dasar Excel. Come learn about
-    the dasar Excel we provide to help you find just the right
-    information when the stakes are high.
+    Pelajari fungsi-fungsi dasar Excel dan tips-tips praktis untuk aplikasi bisnis 
+    di kelas Excel Dasar 2010. Kelas ini cocok bagi siapa saja yang ingin belajar Excel. 
 
   # Information about the instructor to display on the main page.
-  instructor_details: 'Philips Kokoh Prasetyo <br> Senior Excel Research Scientist <br> Singapore Management University'
+  instructor_details: 'Mr. to be decided <br> Pakar Excel <br> Affiliation / company / university'
 
   # You can choose whether you want a video or an image on the main page.
   # If you specify both a video and an image link, then the video will take
