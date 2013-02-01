@@ -29,6 +29,9 @@ handlers:
 - url: /
   upload: index.html
   static_files: index.html
+- url: /terms.html
+  upload: terms.html
+  static_files: terms.html  
 - url: /assets
   static_dir: assets  
 - url: /.*
