@@ -46,7 +46,7 @@ course:
   main_video:
     url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
   main_image:
-    url: /assets/img/banner1.png
+    url: assets/img/banner1.png
     alt_text: Foto Philips Kokoh Prasetyo
 
   # Course start date.
@@ -85,7 +85,7 @@ institution:
 
   # Link and alt text for the logo of the course or your institution
   logo:
-    url: 'assets/img/your_logo_here.png'
+    url: '/assets/img/your_logo_here.png'
     alt_text: Eduversitas
 
 
