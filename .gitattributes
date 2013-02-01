@@ -1,2 +1,3 @@
-*.py	text
+*.html html
+*.py	python
 *.yaml text
