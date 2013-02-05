@@ -29,6 +29,7 @@ from models.roles import Roles
 from models.utils import get_all_scores
 import webapp2
 from google.appengine.api import users
+from google.appengine.api import namespace_manager
 
 
 # The name of the template dict key that stores a course's base location.
@@ -271,6 +272,20 @@ class RegisterHandler(BaseHandler):
             self.redirect('/course')
             return
 
+        # Check global student data
+        namespace = namespace_manager.get_namespace()
+        try:
+            namespace_manager.set_namespace('')
+            student = Student.get_enrolled_student_by_email(user.email())
+        finally:
+            namespace_manager.set_namespace(namespace)
+        
+        if student:
+            create_or_enroll_student(user, student.name);
+            self.template_value['navbar'] = {'registration': True}
+            self.render('confirmation.html')
+            return
+
         self.template_value['navbar'] = {'registration': True}
         self.template_value['register_xsrf_token'] = (
             XsrfTokenManager.create_xsrf_token('register-post'))
@@ -293,19 +308,33 @@ class RegisterHandler(BaseHandler):
         else:
             name = self.request.get('form01')
 
-            # create new or re-enroll old student
-            student = Student.get_by_email(user.email())
-            if not student:
-                student = Student(key_name=user.email())
-                student.user_id = user.user_id()
-
-            student.is_enrolled = True
-            student.name = name
-            student.put()
+            self.create_or_enroll_student(user, name)
 
         # Render registration confirmation page
         self.template_value['navbar'] = {'registration': True}
         self.render('confirmation.html')
+
+    def create_or_enroll_student(self, user, name):
+        # create new or re-enroll old student
+        student = Student.get_by_email(user.email())
+        if not student:
+            student = Student(key_name=user.email())
+            student.user_id = user.user_id()
+            
+            # Add to global student
+            namespace = namespace_manager.get_namespace()
+            try:
+                namespace_manager.set_namespace('')
+                global_student = Student(key_name=user.email())
+                global_student.user_id = user.user_id()
+                global_student.name = name
+                global_student.put()
+            finally:
+                namespace_manager.set_namespace(namespace)
+
+        student.is_enrolled = True
+        student.name = name
+        student.put()
 
 
 class ForumHandler(BaseHandler):
