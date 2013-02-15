@@ -535,7 +535,7 @@ a.gcb-button-action {
 
 .gcb-col-8 {
   float: left;
-  width: 76.4285714286%
+  width: 76.4285714286%;
   margin: 0 1.4880952381% 20px;
 }
 
@@ -820,4 +820,26 @@ h1.product-headers {
   color: #dd4b39;
   font-weight: normal;
   margin: 10px 7px;
+}
+
+h3.product-headers {
+  color: #555564;
+  margin: 10px 7px;
+}
+
+.header-features {
+  background: #65bdf8;
+  border-bottom: 1px solid #ebebeb;
+  color: #000000;
+  padding: 17px 15px 5px;
+  margin: 4px -15px 20px -15px;
+}
+
+.header-features-title {
+  font-weight: normal;
+  margin: 10px 7px;
+}
+
+.feature-item {
+  background: #eaeaea;
 }
