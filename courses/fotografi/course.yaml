@@ -90,9 +90,9 @@ course:
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
   main_video:
-    url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
+    #url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
   main_image:
-    url: assets/img/banner1.png
+    url: assets/img/fotografi.png
     alt_text: Foto Daniel Handoko
 
   # Course start date.
@@ -169,7 +169,7 @@ base:
   show_gplus_button: False
 
   # Header phrase for the main navigation bar
-  nav_header: 'Eduversitas'
+  nav_header: '<strong><font color="#dd4b39">Eduversitas</font></strong>'
 
   # Link to your privacy policy and terms of service
   privacy_terms_url: '/terms.html'
