@@ -45,9 +45,9 @@ course:
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
   main_video:
-    url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
+    #url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
   main_image:
-    url: assets/img/banner1.png
+    url: assets/img/fotografi.png
     alt_text: Foto Daniel Handoko
 
   # Course start date.

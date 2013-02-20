@@ -34,19 +34,19 @@ course:
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
   blurb: |
     Pelajari fungsi-fungsi dasar Excel dan tips-tips praktis untuk aplikasi bisnis 
-    di kelas Excel Dasar 2010. Kelas ini cocok bagi siapa saja yang ingin belajar Excel. 
+    di kelas Excel Dasar 2010. Kelas ini cocok bagi siapa saja yang ingin belajar Excel.
 
   # Information about the instructor to display on the main page.
-  instructor_details: 'Mr. to be decided <br> Pakar Excel <br> Affiliation / company / university'
+  instructor_details: ''#'Mr. to be decided <br> Pakar Excel <br> Affiliation / company / university'
 
   # You can choose whether you want a video or an image on the main page.
   # If you specify both a video and an image link, then the video will take
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
   main_video:
-    url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
+    #url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
   main_image:
-    url: assets/img/banner1.png
+    url: assets/img/excel2010.png
     alt_text: Foto Philips Kokoh Prasetyo
 
   # Course start date.

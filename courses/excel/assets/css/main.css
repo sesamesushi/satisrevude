@@ -821,3 +821,10 @@ h1.product-headers {
   font-weight: normal;
   margin: 10px 7px;
 }
+
+.coming-soon {
+  background: #eaeaea;
+  //border: 1px solid #505050;
+  text-align: center;
+  border-radius: 2px;
+}

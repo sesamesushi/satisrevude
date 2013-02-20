@@ -1,9 +1,9 @@
 id,type,unit_id,title,release_date,now_available
-1,U,0,Pengenalan,1 April,False
-2,U,1,Mengenal Excel,1 April,True
-3,U,2,Fungsi-Fungsi Kondisi,8 April,True
-4,U,3,Pengolahan Data,15 April,True
-5,U,4,Reporting,22 April,True
-6,U,5,Studi Kasus,29 April,True
-7,A,Fin,Ujian akhir,6 Mei,True
+1,U,0,Pengenalan,,False
+2,U,1,Mengenal Excel,,True
+3,U,2,Fungsi-Fungsi Kondisi,,True
+4,U,3,Pengolahan Data,,True
+5,U,4,Reporting,,True
+6,U,5,Studi Kasus,,True
+7,A,Fin,Ujian akhir,,True
 
