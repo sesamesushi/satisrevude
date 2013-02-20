@@ -1,13 +1,9 @@
 id,type,unit_id,title,release_date,now_available
-1,A,Pre,Penilaian Awal,,True
-2,U,1,Pengantar,"Minggu 0, tersedia 20 April",True
-3,U,2,Segitiga Eksposur,"Minggu 1, tersedia 27 April",True
-4,U,3,"Garis, Bentuk, dan Pola","Minggu 2, tersedia 4 Mei",False
-5,A,Mid,Penilaian Pertengahan,,False
-6,U,4,Warna,"Minggu 3, tersedia 11 Mei",False
-7,U,5,Hubungan Spasial,"Minggu 4, tersedia 18 Mei",False
-8,U,6,Melampaui <i>Rule of Third</i>,"Minggu 5, tersedia 25 Mei",False
-9,A,Fin,Penilaian Akhir,,False
-10,O,http://www.youtube.com/watch?v=ZhhiXxiAVtM&feature=player_embedded,Power Searching with Search Experts Video,,False
-11,O,http://www.youtube.com/watch?v=dwlpViuIYgU&feature=player_embedded,Hang Out with Search Experts Video,,False
-
+1,U,0,Pengantar,"Tersedia 8 Mei",False
+2,U,1,Segitiga Eksposur,"Tersedia 8 Mei",False
+3,U,2,"Garis, Bentuk, dan Pola","Tersedia 15 Mei",False
+4,A,Mid,Penilaian Pertengahan,,False
+5,U,3,Warna,"Tersedia 23 Mei",False
+6,U,4,Hubungan Spasial,"Tersedia 30 Mei",False
+7,U,5,Melampaui <i>Rule of Third</i>,"Tersedia 6 Juni",False
+8,A,Fin,Penilaian Akhir,,False
