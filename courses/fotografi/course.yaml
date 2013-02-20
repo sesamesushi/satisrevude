@@ -29,29 +29,74 @@ course:
   admin_user_emails: '[fotografi@eduversitas.com]'
 
   # Course title
-  title: 'Dasar Fotografi'
+  title: 'Dasar Fotografi Digital'
 
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
   blurb: |
-    Google Search makes it amazingly easy to find dasar fotografi. Come learn about
-    the dasar fotografi we provide to help you find just the right
-    information when the stakes are high.
+    Kuliah online ini akan mengajarkan Anda dasar-dasar fotografi selama 5 minggu. Melalui kuliah ini, Anda akan belajar fotografi dari profesional secara cepat, sederhana dan efektif. Lupakan tentang metode pengajaran tradisional yang kusam dan rumit. Bersiaplah untuk belajar fotografi dengan cara baru dan menyenangkan! Buka video kuliah dan simpan files materi kuliah di komputer Anda, sehingga Anda bisa belajar dengan nyaman dan dengan kecepatan yang sesuai dengan aktivitas Anda sehari-hari. 
 
   # Information about the instructor to display on the main page.
-  instructor_details: 'Daniel Handoko <br> Senior Research Scientist <br> Nanyang Technological University'
+  instructor_header: 'Tentang Instruktur'
+  
+  instructor_first: |
+    Daniel Handoko (B.Eng.) berkomitmen untuk memberi Anda tips fotografi inspirasional dan pelatihan praktis. Daniel telah menjadi fotografer selama lebih dari 5 tahun, dan berpengalaman dalam memotret acara-acara gereja dan musikal. Dengan berinteraksi dengan teman-teman di universitas dan gereja, Daniel termotivasi untuk mengajarkan teknik fotografi profesional secara sistematis, yang dapat dicapai dengan cara yang paling sederhana. Di luar fotografi, Daniel adalah ahli komputer dan peneliti aktif dalam bidang evolutionary optimization, machine learning, dan computational biology.
+  
+  instructor_second: |
+    Richard Oentaryo (B.Eng., Ph.D.) adalah penggemar fotografi pemandangan dan portrait, dengan pengalaman 4 tahun lebih. Di waktu senggangnya, Richard sering mengambil foto (freelance) acara-acara pernikahan, keluarga, atau perayaan spesial. Dia juga gemar travel ke luar negeri untuk konferensi dan mengambil foto. Selain fotografi, Richard aktif terlibat dalam penelitian di bidang machine learning, data mining, dan cognitive science. Hasil penelitiannya telah menerima beberapa penghargaan, seperti IES Engineering Achievement Award 2011 dan IEEE-CIS Outstanding Student Paper Award 2006 dan 2009.
+
+  format_header: 'Format Kuliah'
+  
+  format_detail: |
+    Kuliah ini akan terdiri dari beberapa video, yang panjangnya masing-masing antara 5 sampai 15 menit. Kuliah ini juga akan melibatkan 2 tugas proyek di rumah, dimana Anda akan belajar menggunakan kamera Anda (model kamera apa aja) untuk mengambil foto kreatif. Foto-foto Anda akan dinilai/direvisi oleh para murid dan fotografer profesional lainnya.
+  
+  scope_header: 'Cakupan'
+  
+  scope_detail: |
+    Kuliah ini akan mencakup prinsip-prinsip penting di fotografi, yang terdiri dari:
+    <ul>
+    <li>Aperture, shutter dan sensitivity (ISO)</li> 
+    <li>Kurva, garis, bentuk, pola, dan lapisan</li>
+    <li>Prinsip foto warna dan foto hitam and putih</li>
+    <li>Rule of third, garis horizontal, perspektif</li>
+    <li>Komposisi, ruang positif/negatif, cropping, dan printing</li>
+    </ul>
+
+  prerequisite_header: 'Prasyarat'
+  
+  prerequisite_detail: |
+    Tidak ada
+
+  reference_header: 'Referensi Bacaan'
+  
+  reference_detail: |
+    Tidak ada buku teks diperlukan untuk kelas ini, namun Anda disarankan untuk membaca buku-buku berikut:
+    <ul>
+    <li>L. Excell, J. Batdorff, D. Brommer, R. Rickman, and S. Simon, Composition: From snapshots to great shots, Peachpit Press, 2011</li>
+    <li>Peterson, B., Learning to see creatively: Design, color, and composition in photography, Watson-Guptill, 2003</li>
+    </ul>
+
+  faq_header: 'Pertanyaan Umum'
+
+  faq_detail: |
+    <ul>
+    <li><b>Apakah mengambil kuliah ini dipungut biaya?</b><br>Kelas pelatihan ini terbuka untuk umum dan GRATIS</li>
+    <li><b>Apakah yang akan saya dapatkan dari kuliah ini?</b><br>Anda akan mendapatkan sertifikat dari Eduversitas yang akan ditandatangani oleh instruktur, dengan syarat Anda menyelesaikan tugas-tugas yang diberikan</li>
+    <li><b>Apakah materi kuliah akan tersedia dalam bentuk file yang bisa didownload?</b><br>Ya. Materi kuliah akan disajikan dalam format Powerpoint (.pptx) atau Portable Document Format (.pdf)</li>
+    <li><b>Berapa lama waktu yang perlu saya dedikasikan untuk kursus ini?</b><br>Video kuliah akan mengambil waktu sekitar 1 jam tiap minggu, bersama dengan proyek di rumah setiap 2 minggu yang masing-masing membutuhkan 2-3 jam</li>
+    </ul>
 
   # You can choose whether you want a video or an image on the main page.
   # If you specify both a video and an image link, then the video will take
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
   main_video:
-    #url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
+    url: //www.youtube.com/embed/V0ul7YvAXI0?rel=0
   main_image:
-    url: assets/img/fotografi.png
+    url: assets/img/banner1.png
     alt_text: Foto Daniel Handoko
 
   # Course start date.
-  start_date: '1 April 2013'
+  start_date: '8 May 2013'
 
   # Forum URL. For details, see
   #
