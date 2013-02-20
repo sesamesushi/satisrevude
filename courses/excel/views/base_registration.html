@@ -5,17 +5,17 @@
 <div class="gcb-nav gcb-complex" id="gcb-nav-x">
   <div class="gcb-aux">
     <ul>
-      <li {% if navbar.announcements %}class='active'{% endif %}>
+      <!-- <li {% if navbar.announcements %}class='active'{% endif %}>
         <a href="announcements">
           {% trans %} Announcements {% endtrans %}
         </a>
-      </li>
+      </li> -->
       <li {% if navbar.course %}class='active'{% endif %}>
         <a href="course">{% trans %} Course {% endtrans %}</a>
       </li>
-      <li {% if navbar.registration %}class='active'{% endif %}>
+      <!-- <li {% if navbar.registration %}class='active'{% endif %}>
         <a href="register">{% trans %} Registration {% endtrans %}</a>
-      </li>
+      </li> -->
       {% if is_super_admin %}
       <li class='pull-right'>
         <a href="/admin">Admin</a>
