@@ -101,7 +101,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.67"
      inkscape:cx="116.39228"
-     inkscape:cy="63.22135"
+     inkscape:cy="66.463666"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -118,6 +118,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,16 +129,19 @@
      transform="translate(0,-932.36218)">
     <text
        xml:space="preserve"
-       style="font-size:72px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00aa8c;fill-opacity:1;stroke:#00aa8c;stroke-width:1;stroke-opacity:1;font-family:Lucida Handwriting;-inkscape-font-specification:Lucida Handwriting Bold Italic"
-       x="-267.07123"
-       y="1014.7252"
+       style="font-size:65.59195709px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00aa8c;fill-opacity:1;stroke:#00aa8c;stroke-width:0.91099936;stroke-opacity:1;font-family:Lucida Handwriting;-inkscape-font-specification:Lucida Handwriting Bold Italic"
+       x="-268.2233"
+       y="995.65491"
        id="text2985"
        sodipodi:linespacing="125%"
-       transform="matrix(0.96331017,-0.2683906,0.2683906,0.96331017,0,0)"><tspan
+       transform="matrix(0.94505705,-0.27357437,0.26330505,0.98191584,0,0)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/Users/philips/Eduversitas/codes/satisrevude/satisrevude/assets/img/umum.png"><tspan
          sodipodi:role="line"
          id="tspan2987"
-         x="-267.07123"
-         y="1014.7252"
-         style="font-size:72px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa8c;fill-opacity:1;stroke:#00aa8c;stroke-width:1;stroke-opacity:1;font-family:Lucida Handwriting;-inkscape-font-specification:Lucida Handwriting Bold Italic">OPEN</tspan></text>
+         x="-268.2233"
+         y="995.65491"
+         style="font-size:65.59195709px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa8c;fill-opacity:1;stroke:#00aa8c;stroke-width:0.91099936;stroke-opacity:1;font-family:Lucida Handwriting;-inkscape-font-specification:Lucida Handwriting Bold Italic">UMUM</tspan></text>
   </g>
 </svg>
