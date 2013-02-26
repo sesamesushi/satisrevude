@@ -840,8 +840,16 @@ h3.product-headers {
   margin: 10px 7px;
 }
 
+.header-features-text {
+  font-weight: normal;
+  margin: 10px 7px;
+  text-align: center;
+}
+
 .feature-item {
   background: #eaeaea;
+  border: 1px solid #aaa;
+  box-shadow: 1px 1px 2px #cccccc;
 }
 
 .label {
