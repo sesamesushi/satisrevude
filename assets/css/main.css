@@ -671,6 +671,7 @@ h2.product-headers {
   margin: .4em 0 0;
   font-weight: normal;
   margin: 10px 7px;
+  text-align: justify;
 }
 
 h2.bio-headers {
