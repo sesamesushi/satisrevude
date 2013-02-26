@@ -829,7 +829,7 @@ h3.product-headers {
 }
 
 .header-features {
-  background: #ffffff;/
+  background: #eaeaea;
   color: #000000;
   padding: 17px 15px 5px;
   margin: 4px -15px 20px -15px;
@@ -847,7 +847,7 @@ h3.product-headers {
 }
 
 .feature-item {
-  background: #eaeaea;
+  background: #ffffff;
   border: 1px solid #aaa;
   box-shadow: 1px 1px 2px #cccccc;
 }
