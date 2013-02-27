@@ -29,7 +29,7 @@ course:
   admin_user_emails: '[excel-dasar@eduversitas.com]'
 
   # Course title
-  title: 'Microsoft Excel 2010'
+  title: 'Dasar Excel 2010'
 
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
   blurb: |
