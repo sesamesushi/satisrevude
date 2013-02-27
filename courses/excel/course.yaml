@@ -29,12 +29,12 @@ course:
   admin_user_emails: '[excel-dasar@eduversitas.com]'
 
   # Course title
-  title: 'Dasar Excel 2010'
+  title: 'Microsoft Excel 2010 Dasar'
 
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
   blurb: |
-    Pelajari fungsi-fungsi dasar Excel dan tips-tips praktis untuk aplikasi bisnis 
-    di kelas Excel Dasar 2010. Kelas ini cocok bagi siapa saja yang ingin belajar Excel.
+    Pelajari fungsi-fungsi dasar dari Microsoft Excel 2010 dan tips-tips praktis untuk aplikasi
+    bisnis. Kelas ini cocok bagi siapa saja yang ingin belajar Excel.
 
   # Information about the instructor to display on the main page.
   instructor_details: ''#'Mr. to be decided <br> Pakar Excel <br> Affiliation / company / university'
