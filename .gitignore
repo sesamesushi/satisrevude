@@ -36,3 +36,6 @@ nosetests.xml
 
 # Backup
 *.bak
+
+# node_modules
+node_modules*
